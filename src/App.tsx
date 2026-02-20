@@ -655,6 +655,12 @@ export default function App() {
             <p>826/926</p>
           </div>
         </div>
+
+        <div className="mt-6 pt-4 border-t border-slate-100 text-center">
+          <p className="text-[10px] text-slate-400 font-medium tracking-wide uppercase">
+            © {new Date().getFullYear()} Todos los derechos reservados · Xisco G. H.
+          </p>
+        </div>
       </motion.div>
 
       <Modal 
