@@ -43,7 +43,7 @@ const RoomCard: React.FC<RoomCardProps> = ({
   if (isService) {
     const isElevator = room.label === 'ASCENSOR';
     return (
-      <div className={`w-full ${isElevator ? 'h-8 md:h-12' : 'h-16 md:h-24'} flex items-center justify-center border border-slate-800 bg-white text-slate-800 text-[10px] md:text-xs font-bold tracking-wider my-0.5 print:border-slate-800`}>
+      <div className={`w-full ${isElevator ? 'h-8 md:h-12' : 'h-20 md:h-24'} flex items-center justify-center border border-slate-800 bg-white text-slate-800 text-[10px] md:text-xs font-bold tracking-wider my-0.5 print:border-slate-800`}>
         {room.label}
       </div>
     );
